@@ -1,0 +1,30 @@
+
+:root {
+  --bg: #1e1e1e;
+  --fg: #d4d4d4;
+  --link: #569cd6;
+  --sidebar-bg: #252526;
+  --sidebar-fg: #cccccc;
+  --code-bg: #1e1e1e;
+  --code-fg: #dcdcdc;
+  --font-family: 'Fira Code', monospace;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-family);
+}
+
+a { color: var(--link); }
+
+nav.sidebar {
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-fg);
+}
+
+pre, code {
+  background-color: var(--code-bg);
+  color: var(--code-fg);
+  font-family: var(--font-family);
+}
